@@ -1,4 +1,5 @@
 import thumbnailAutoPay from "../../../assets/thumbnails/auto-pay.webp";
+import thumbnailKaryaSiddhi from "../../../assets/thumbnails/karya-siddhi.webp";
 import thumbnailBloomWellness from "../../../assets/thumbnails/bloom-wellness.webp";
 import thumbnailHelmetDetection from "../../../assets/thumbnails/helmet-detection.webp";
 import thumbnailBillingApp from "../../../assets/thumbnails/billing-app.webp";
@@ -12,6 +13,12 @@ export default [
     slug: "auto-pay",
     thumbnail: thumbnailAutoPay,
     description: "Zahlungsplattform in Produktion",
+  },
+  {
+    title: "Karya Siddhi",
+    slug: "karya-siddhi",
+    thumbnail: thumbnailKaryaSiddhi,
+    description: "Tempel-Begleit-App mit React Native",
   },
   {
     title: "Bloom Wellness",

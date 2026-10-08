@@ -22,7 +22,10 @@ export type TagVariant =
   | "opencv"
   | "mysql"
   | "firebase"
-  | "streamlit";
+  | "streamlit"
+  | "react-native"
+  | "expo"
+  | "typescript";
 
 export const tagLabels = {
   three: "Three.js",
@@ -49,4 +52,7 @@ export const tagLabels = {
   mysql: "MySQL",
   firebase: "Firebase",
   streamlit: "Streamlit",
+  "react-native": "React Native",
+  expo: "Expo",
+  typescript: "TypeScript",
 } as const satisfies Record<TagVariant, string>;
